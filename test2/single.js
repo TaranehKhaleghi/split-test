@@ -206,13 +206,13 @@ var surveyJSON = {
     "storeOthersAsComment": false
    }
 
-function sendDataToServer(survey) {
-    //send Ajax request to your web server.
-    JSON.stringify(survey.data);
-}
+   window.survey = new Survey.Model(surveyJSON);
 
-var survey = new Survey.Model(surveyJSON);
-$("#surveyContainer").Survey({
-    model: survey,
-    onComplete: sendDataToServer
-});
+   survey
+       .onComplete
+       .add(function (result) {
+           document
+               .location = "singlethanks.html";
+       });
+   
+   $("#surveyElement").Survey({ model: survey });
