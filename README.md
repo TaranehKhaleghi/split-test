@@ -16,5 +16,5 @@ https://my-split-test.herokuapp.com/test2
 
 
 <br/>
-<h3>Screenshots</h3>
+<h3>Screenshot</h3>
 <img src="screenshot.JPG" height="300px"/>
