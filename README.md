@@ -1,4 +1,5 @@
-# <a href="https://github.com/rhildred/split-test" target="_blank">split-test</a>
+Github link to Test 1 - Multiple page survey
+https://taranehkhaleghi.github.io/split-test/test1/
 
-An engine for splitting the traffic between sites.
-
+Github link to Test 2 - Single page survey
+https://taranehkhaleghi.github.io/split-test/test2/
